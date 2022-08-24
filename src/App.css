@@ -1,0 +1,34 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 140px auto 0;
+}
+
+.card {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #EDEEED;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
+    max-width: calc(100% - 40px);
+    margin: 0 20px 20px 20px;
+    background: white;
+    position: relative;
+}
+
+.card__image-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    margin: 0 2rem 0 0;
+    border: 0;
+    padding: 0;
+    flex: 1 0 60%;
+    max-width: 60%;
+}
+
+.card__image {
+    width: 100%;
+    margin: 0;
+}
